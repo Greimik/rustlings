@@ -13,10 +13,17 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
 
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(apple_count :i8) -> i8 {
+    let apple_price = if(apple_count > 40){
+        1
+    }else{
+        2
+    };
+
+    return apple_count * apple_price
+}
 
 // Don't modify this function!
 #[test]
